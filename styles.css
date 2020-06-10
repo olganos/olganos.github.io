@@ -1,0 +1,30 @@
+﻿body {
+}
+
+h1 a, h1 a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+p::first-letter {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#polaroid {
+    width: 600px;
+    max-width: 100%;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid-caption {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.hide {
+    width: 5px;
+    overflow: hidden;
+}
